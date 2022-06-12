@@ -1,7 +1,8 @@
 import './App.css';
+import Outline from './pagesAndComponents/pages/outline/Outline';
 
 function App() {
-	return <h1>Hello World</h1>	
+	return <Outline />	
 }
 
-export default App
+export default App;
