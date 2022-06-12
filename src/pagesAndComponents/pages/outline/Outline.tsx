@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default function Outline() {
 
-    const [outlines, setOutlines] = useState<String[]>([]);
+    const [outlines, setOutlines] = useState<string[]>([]);
     const [currentOutline, setCurrentOutline] = useState(""); // For the outline the user is currently entering
 
     const addOutline = () => {
